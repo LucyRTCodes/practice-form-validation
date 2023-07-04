@@ -1,0 +1,80 @@
+* {
+	align-self: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	width: 100%;
+	font-size: xx-large;
+	font-family: "Courier New", Courier, monospace;
+	background-color: rgba(128, 0, 0, 0.742);
+	margin-bottom: -50px;
+}
+
+h1 {
+	padding: 100px;
+	text-align: center;
+	color: aliceblue;
+}
+
+body {
+	width: 100%;
+	display: inline-block;
+	justify-content: center;
+	background-color: darkgoldenrod;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	padding: 25px;
+	width: fit-content;
+	align-items: center;
+	background-color: goldenrod;
+	border: 3px;
+	border-color: darkgoldenrod;
+	border-radius: 5%;
+	font-size: x-large;
+}
+main {
+	display: flex;
+	justify-content: center;
+}
+
+input {
+	height: 25px;
+	background-color: rgb(214, 157, 13);
+	font-size: 15pt;
+	font-family: "Courier New", Courier, monospace;
+	max-width: 1000px;
+	border-radius: 5%;
+	border-color: darkgoldenrod;
+	color: rgb(51, 38, 4);
+}
+
+.input {
+	font-size: 20pt;
+	font-family: "Courier New", Courier, monospace;
+	height: 50px;
+}
+.input label {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	margin-right: 20px;
+	color: rgb(51, 38, 4);
+}
+
+.error {
+	color: red;
+}
+
+button {
+	font-size: medium;
+	background-color: darkgoldenrod;
+	margin-top: 20px;
+	width: 100px;
+	height: auto;
+	border-radius: 10%;
+}
