@@ -67,7 +67,7 @@ input {
 }
 
 .error {
-	color: red;
+	color: maroon;
 	font-size: medium;
 	margin-top: -10px;
 	margin-bottom: 10px;
