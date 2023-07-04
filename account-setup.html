@@ -32,18 +32,21 @@ _Additional_
 		<header><h1>Create account</h1></header>
 		<main>
 			<form id="account-setup-form" action="success.html" method="get">
+				<div id="required-fields">
+					<p>(Fields marked with an * are required.)</p>
+				</div>
 				<div class="input">
-					<label for="firstname">First name</label>
+					<label for="firstname">*First name</label>
 					<input type="text" id="firstname" />
 				</div>
 				<p class="error" id="firstname-error"></p>
 				<div class="input">
-					<label for="lastname">Last name</label>
+					<label for="lastname">*Last name</label>
 					<input type="text" id="lastname" />
 				</div>
 				<p class="error" id="lastname-error"></p>
 				<div class="input">
-					<label for="username">Username</label>
+					<label for="username">*Username</label>
 					<input type="text" id="username" />
 				</div>
 				<p class="error" id="username-error"></p>
